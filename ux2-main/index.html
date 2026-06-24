@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Segurança Digital - Acessível</title>
+    <style>
+        /* Cores de alto contraste para fácil leitura */
+        :root {
+            --cor-fundo: #FFFFFF;
+            --cor-texto: #1A1A1A;
+            --cor-primaria: #0044CC;
+            --cor-alerta: #D40000;
+            --cor-cartao: #F4F7FE;
+            --cor-borda: #CCCCCC;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 24px; /* Fonte ampliada para idosos */
+            line-height: 1.6;
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+            padding: 15px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* 1. INÍCIO: Banner com botão de ajuda funcional */
+        .banner-inicio {
+            background-color: #FFF0F0;
+            border: 4px solid var(--cor-alerta);
+            border-radius: 16px;
+            padding: 30px 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .banner-inicio h1 {
+            font-size: 34px;
+            color: var(--cor-alerta);
+            margin-bottom: 15px;
+        }
+
+        .botao-ajuda {
+            display: inline-block;
+            background-color: var(--cor-alerta);
+            color: white;
+            text-decoration: none;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 20px 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+            margin-top: 10px;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .botao-ajuda:hover, .botao-ajuda:focus {
+            background-color: #B30000;
+            outline: 4px solid #000000;
+        }
+
+        /* Títulos das Seções */
+        h2 {
+            font-size: 30px;
+            color: var(--cor-primaria);
+            margin-top: 50px;
+            margin-bottom: 20px;
+            border-bottom: 4px solid var(--cor-primaria);
+            padding-bottom: 8px;
+        }
+
+        /* Estilo dos Blocos/Cartões de Informação */
+        .bloco-conteudo {
+            background-color: var(--cor-cartao);
+            border-left: 10px solid var(--cor-primaria);
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 0 12px 12px 0;
+        }
+
+        .bloco-conteudo.suspeito {
+            border-left-color: #E67E22; /* Laranja para atenção */
+            background-color: #FFFDF5;
+        }
+
+        .titulo-topico {
+            font-weight: bold;
+            font-size: 26px;
+            margin-bottom: 8px;
+        }
+
+        /* Seção de Texto Corrido */
+        .texto-corrido p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 30px 20px;
+            font-size: 20px;
+            border-top: 3px solid var(--cor-borda);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+
+        <!-- 1. INÍCIO: BANNER DE AJUDA -->
+        <section class="banner-inicio">
+            <h1>Guia de Proteção Digital</h1>
+            <p>Precisa de socorro financeiro ou caiu em um golpe agora?</p>
+            
+            <a href="tel:190" class="botao-ajuda">🚨 LIGAR PARA A POLÍCIA (190)</a>
+        </section>
+
+
+        <!-- 2. DICAS IMPORTANTES -->
+        <section>
+            <h2>📌 Dicas Importantes</h2>
+            
+            <div class="bloco-conteudo">
+                <div class="titulo-topico">1. Guarde suas senhas em papel</div>
+                <p>Não salve senhas no bloco de notas do celular. É mais seguro anotá-las em um caderno físico bem guardado na sua casa.</p>
+            </div>
+
+            <div class="bloco-conteudo">
+                <div class="titulo-topico">2. Nunca tenha pressa</div>
+                <p>Os golpistas tentam fazer você agir rápido. Se disserem que é urgente, desligue o telefone e converse com alguém de sua confiança primeiro.</p>
+            </div>
+
+            <div class="bloco-conteudo">
+                <div class="titulo-topico">3. Não clique em links</div>
+                <p>Evite clicar em links azuis que chegam por mensagem de pessoas desconhecidas ou de bancos. Eles servem para roubar seus dados.</p>
+            </div>
+        </section>
+
+
+        <!-- 3. DIREITOS NA INTERNET -->
+        <section class="texto-corrido">
+            <h2>⚖️ Seus Direitos na Internet</h2>
+            <p>Assim como na vida real, você tem leis que te protegem no mundo digital. O <strong>Estatuto do Idoso</strong> e o <strong>Código de Defesa do Consumidor</strong> também valem para compras e serviços contratados pela internet ou pelo celular.</p>
+            <p>Você tem o direito de desistir de qualquer compra feita na internet em até 7 dias e receber seu dinheiro de volta. Além disso, nenhuma empresa ou banco pode te obrigar a contratar empréstimos ou serviços ocultos através de aplicativos sem a sua autorização clara.</p>
+        </section>
+
+
+        <!-- 4. COMO SABER SE ESTOU CAINDO EM UM GOLPE? -->
+        <section>
+            <h2>🤔 Como Saber se Estou Caindo em um Golpe?</h2>
+            <p style="margin-bottom: 20px;">Fique muito atento se notar qualquer uma destas <strong>atitudes suspeitas</strong>:</p>
+
+            <div class="bloco-conteudo suspeito">
+                <div class="titulo-topico">• O gerente pede sua senha</div>
+                <p>Funcionários de banco ou da polícia <strong>nunca</strong> vão ligar pedindo a sua senha, o número do seu cartão ou o código do Pix.</p>
+            </div>
+
+            <div class="bloco-conteudo suspeito">
+                <div class="titulo-topico">• Um parente mudou de número do nada</div>
+                <p>Se um filho ou neto te mandar mensagem de um número novo pedindo dinheiro emprestado, ligue imediatamente para o número antigo dele para confirmar se é verdade.</p>
+            </div>
+
+            <div class="bloco-conteudo suspeito">
+                <div class="titulo-topico">• Prêmios ou dinheiro inesperado</div>
+                <p>Desconfie se receber mensagens dizendo que você ganhou um sorteio que não se inscreveu, ou que tem uma herança / dinheiro esquecido para sacar.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Este guia foi feito para proteger você. Leia com calma quantas vezes precisar!</p>
+    </footer>
+
+</body>
+</html>
